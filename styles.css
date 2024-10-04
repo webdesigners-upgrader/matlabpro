@@ -1019,7 +1019,7 @@ ul li{
 
 .ycontainer {
   max-width: 1200px;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
   margin-left:200px;
   margin-top:30px;
   padding: 20px;
@@ -1094,7 +1094,6 @@ ul li{
   .welcome-section h1 {
       font-size: 28px;
   }
-
   .welcome-section p {
       font-size: 16px;
   }
@@ -1120,7 +1119,8 @@ ul li{
 }
 @media (min-width: 768px){
   .messag{
-    margin-left:200px;
+    margin-left:220px;
+    padding:20px;
   }
   .solvers{
     margin-top:10px
