@@ -1132,3 +1132,21 @@ ul li{
   }
 
 }
+
+
+@media (max-width: 516px){
+  .gallery-item {
+    margin-top:10px;
+    max-width: 100%;
+  }
+  .gallery-item img{
+      width: 100%; /* Set desired width */
+      height: 200px; /* Set desired height */
+      object-fit: cover;
+
+  }
+
+}
+
+
+
