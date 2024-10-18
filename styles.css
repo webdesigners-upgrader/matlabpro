@@ -1201,6 +1201,18 @@ top: 30px;
 text-decoration: none;
 color: white;
 }
+@media (max-width: 617px){
+  .messag{
+    height: 100vh;
+  }
+  .toolsy{
+    height: 30vh;
+  }
+
+}
+.toolsy{
+  height: 30vh;
+}
 
 
 
