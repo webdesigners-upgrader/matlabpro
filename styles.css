@@ -1149,6 +1149,58 @@ ul li{
   }
 
 }
+.messag{
+  position:relative;
+  
+  height: 50vh;
+  
+}
+.solvers{
+  position:absolute;
+  top:0;
+  left: 5px;
+}
+.datab{
+position: absolute;
+text-align: left ;
+top: 50px;
+text-decoration: none;
+left: 0px;
+margin-left: -3px;
+}
+.pager{
+position: absolute;
+top: 90px;
+left: 5px;
+text-align: center;
+}
+.datak{
+position: absolute;
+top: 120px;
+left: 0;
+}
+.datak li a{
+font-size: 10px;
+text-decoration: none;
+line-height: 0.9;
+}
+.lisis{
+position: absolute;
+text-align: center;
+place-content: center;
+align-items: center;
+top: 15px;
+left: 10px;
+
+}
+.ana{
+position: absolute;
+top: 30px;
+}
+.btnow a{
+text-decoration: none;
+color: white;
+}
 
 
 
