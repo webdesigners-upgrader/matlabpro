@@ -1,587 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DATA ANALYSIS AND MATLAB</title>
-  <link rel="stylesheet" href="styles.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Page</title>
+    <style>
+        /* this is simply the container where user use to login*/
+        .logger {
+            background-color: goldenrod;/*  we have added this color to make vissible*/
+            font-family: Arial, sans-serif;
+            display: flex; 
+            /* setting the border radius so that edges appear smoother */
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center; /* the styling ensures that elements are aligned to the center*/
+            height: 80vh;
+           
+        }
+        .setupform {
+            max-width: 600px;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: orchid;
+            color: #007BFF;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .userinput {
+            border-radius: 10px;
+            width: 90%;
+            height: 50px;
+            padding: 10px;
+            margin: 10px 0px;
+            color: #fff;
+            background-color: #007BFF;
+            box-sizing: border-box;
+        }
+        .butsetter {
+            width: 90%;
+            padding: 10px 10px;
+            border-radius: 10px;
+            background-color: coral;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .butsetter:hover {
+            background-color: green;
+            color: black;
+            font-size: 20px;
+        }
+        .disaplayingcontent {
+           
+            margin-top: 10px;
+            color: black;
+            font-size: inherit;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
-
-  <h4 class="matlaby">EXCELLENT MATLAB SOLVERS AND DATA ANALYST</h4>
-
-  <!-- Sidebar -->
-  <input type="checkbox" id="menu-toggle">
-  <label for="menu-toggle" class="menu-icon">&#9776;</label>
-  <aside class="sidebar">
-    <nav class="menu added">
-      <ul>
-        <li><a href="#analysis">DATA ANALYSIS</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#webdevelopment">WEB AND APP DEVELOPMENT</a></li>
-        
-        
-        <li><a href="#aboutus">About Us</a></li>
-        <li><a href="#academictools"> Academic Tools</a></li>
-        <li><a href="#contactus">Contact us</a></li>
-        <li><a href="#odernum">Book with us</a></li>
-        <li><a href="#matlab">MATLAB</a></li>
-      
-        
-      </ul>
-    </nav>
-  </aside>
-
-  <!-- Search Bar -->
-  <header class="header">
-    <div class="container">
-      <div class="search-bar">
-       
-       <!--<button type="button">Search</button> -->
-        
-        <div class="logger"> <a href="#odernum">Order  </a> </div>
-        <div class="logger"> <a href="#signup">signup </a> </div>
-        <div class="logger"> <a href="#contactus">Contact</a> </div>
-        <div class="logger"> <a href="#aboutus">Goals</a> </div>
-      </div>
-    </div>
-  </header>
-  
-
-    <!-- Main Container -->
-    <div class="ycontainer">
-      <div class="welcome-section">
-          <h1>Welcome to Our Services!</h1>
-          <p>We are delighted to have you here. Our dedicated team offers a variety of professional services that will cater to your unique needs.</p>
-      </div>
-
-      <!-- Services Section -->
-      <div class="services-section">
-          <h2>What We Offer</h2>
-          <div class="services-grid">
-              <div class="service-card">
-                  <h3>Assignment Help</h3>
-                  <p>We provide plagiarism-free assignment help with a Turnitin report to ensure authenticity and quality.</p>
-              </div>
-              <div class="service-card">
-                  <h3>App Development</h3>
-                  <p>Our team delivers high-quality, user-friendly mobile applications tailored to your business needs.</p>
-              </div>
-              <div class="service-card">
-                  <h3>Web Development</h3>
-                  <p>We build stunning and responsive websites that ensure a great user experience across all devices.</p>
-              </div>
-              <div class="service-card">
-                  <h3>Data Analysis</h3>
-                  <p>We analyze your data to provide actionable insights that drive business growth and efficiency.</p>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="reviewl">
-    <h3 class="wordsay">Client Feedbacks</h3>
-    <p class="para">Fantastic developers, great experience all around!</p>
-
-    <p class="person">Lucas Sanders</p>
-    <p class="prat">rating <span class="rater">4.8</span></p>
-    <button class="btncls">view more reviews</button>
-</div>
-
-
-  
-<div class="cousin" id="services">
-  <h2 class="neibour">WE THE MATLAB AND DATA ANALYSIS SOLVERS <span class="entail"> +254714047751</span></h2>
-  <h3 class="getter">YOUR DATA ANALYSIS, WEB DEVELOPMENT AND MATLAB SERVICE BAY</h3><br><br>
-  <h5 class="brte">These are additional services we offer:</h5><br>
-
-  <ul class="greater">
-      <li><a href="">DATA ANALYSIS</a></li>
-      <li><a href="">MATLAB SERVICES</a></li>
-      <li><a href="">WEB DEVELOPMENT</a></li>
-      <li><a href="">PYTHON</a></li>
-      <li><a href="">C++</a></li>
-      <li><a href="">DISSERTATION</a></li>
-      <li><a href="">MATHEMATICS</a></li>
-      <li><a href="">C LANGUAGE</a></li>
-      <li><a href="">ASSEMBLY LANGUAGE</a></li>
-      <li><a href="">ASSIGNMENT HELP</a></li>
-      <li><a href="">ESSAYS</a></li>
-      <li><a href="">CIVIC ENGINEERING</a></li>
-      <li><a href="">APP DEVELOPMENT</a></li>
-      <li><a href="">EXAMS</a></li>
-      <li><a href="">STATISTICS</a></li>
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-    
-    
-
- 
-  <div class="fully">
-    <h2 class="centy">Services categories</h2>
-    <div class="gallery">
-    
-    <div class="gallery-item">
-        <img src="images/data1.PNG" alt="DATA ANALYSIS">
-        <h3 class="paramoja">We provide our clients with powerful healthcare data analytics tools which they can employ to conduct medical data analysis</h3>
-      <p  class="paras"> $5
-       </p>
-  
-       <button class="btnow"><a href="#odernum">Order now  </a> </button>
-    </div>
-    <div class="gallery-item">
-        <img src="images/matlab.PNG" alt="MATLAB SERVICES">
-        <h3 class="paramoja"> We'll work with you to develop a customized project plan aligned to your business goals which are matlab related </h3>
-        <p  class="paras"> $10
-         </p>
-    
-    <button class="btnow"><a href="#odernum">Order now  </a> </button>
-    </div>
-    <div class="gallery-item">
-        <img src="images/webdev.PNG" alt="INTERVIEW GUIDANCE PROGRAM" >
-        <h3 class="paramoja">we Offers professional web development services, including custom theme design and integration of trending features and plugins</h3>
-        <p  class="paras"> $100
-         </p>
-    
-         <button class="btnow"><a href="#odernum">Order now  </a> </button>
-    </div>
-    
-    <div class="gallery-item">
-        <img src="images/python.PNG" alt="python help">
-        <h3 class="paramoja">We have a team of skilled Python assignment help programmers who can help you complete an Python assignment with ease.</h3>
-        <p  class="paras">$ 50
-         </p>
-    
-         <button class="btnow"><a href="#odernum">Order now  </a> </button>
-    </div>
-    <div class="gallery-item">
-      <img src="images/cplus.PNG" alt="C++ ASSIGNMENT HELP">
-      <h3 class="paramoja"> Our highly qualified and skilled team members can provide you help with your C++ programming assignment and C++ programming homework.</h3>
-      <p  class="paras"> $30
-       </p>
-  
-       <button class="btnow"><a href="#odernum">Order now  </a> </button>
-  </div>
-  <div class="gallery-item">
-    <img src="images/thesis.PNG" alt="DISSERTATION ASSISTANCE">
-    <h3 class="paramoja">exceptional dissertation writing company that helps students create dissertations and dissertation proposals of the highest quality</h3>
-    <p  class="paras">$8 
-     </p>
-
-     <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/maths.PNG" alt="MATHEMATICS HELP">
-  <h3 class="paramoja">We offer comprehensive mathematics help for students of all levels. Whether you need assistance with algebra, geometry, calculus, our expert tutors provide clear explanations and personalized support.
-
-
-
-
-
-
-  </h3>
-  <p  class="paras">$30
-   </p>
-
-<button class="btnow">order now</button>
-</div>
-<div class="gallery-item">
-  <img src="images/Clangua.PNG" alt="C LANGUAGE HELP">
-  <h3 class="paramoja">We offer expert assistance in C programming, helping with coding, debugging, and understanding concepts for improved proficiency.
-
-
-
-
-
-
-  </h3>
-  <p  class="paras">$ 50
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/assemble.PNG" alt="ASSEMBLY LANGUAGE HELP">
-  <h3 class="paramoja">We provide expert assistance in assembly language programming, helping you with optimization, debugging, and efficient code development.
-
-
-
-
-
-
-  </h3>
-  <p  class="paras">$120
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/assignment.PNG" alt="ASSIGNMENT HELP">
-  <h3 class="paramoja">We provide professional assignment help services, delivering high-quality, on-time solutions to ensure academic success in all subjects.
-
-
-
-
-
-
-  </h3>
-  <p  class="paras">$70
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/essay.PNG" alt="QUALITY ESSAY HELP">
-  <h3 class="paramoja">We provide professional essay help, offering personalized assistance with research and editing. Our expert team ensures well-structured essays to meet your academic needs and deadlines efficiently.</h3>
-  <p  class="paras">$7
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/civil.PNG" alt="CIVIL ENGINEERING ASSIGNMENT">
-  <h3 class="paramoja">We provide expert engineering support, offering innovative solutions, technical guidance, and hands-on assistance to ensure successful project completion and optimized results.</h3>
-  <p  class="paras">$10
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/mobile.PNG" alt="APP DEVELOPMENT">
-  <h3 class="paramoja">We provide expert app development services, offering innovative solutions and support to bring your ideas to life on any platform.</h3>
-  <p  class="paras">$300
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-<div class="gallery-item">
-  <img src="images/examshelp.PNG" alt="Exams Help">
-  <h3 class="paramoja">We offer expert exam help to ensure you succeed. Get personalized assistance, study guides, and tips to achieve your academic goals.</h3>
-  <p  class="paras">$7
-   </p>
-
-   <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-    <div class="gallery-item">
-      <img src="images/java.PNG" alt="Java programming assignment">
-      <h3 class="paramoja">We offer comprehensive Java help, including programming assistance, troubleshooting, code reviews, and guidance for beginners and experienced developers alike. Contact us today!</h3>
-      <p class="paras">$100</p>
-    
-      <button class="btnow"><a href="#odernum">Order now  </a> </button>
-  </div>
-  <div class="gallery-item">
-    <img src="images/kotlin.PNG" alt="KOTLIN ASSIGNMENT HELP">
-    <h3 class="paramoja">
-      We provide Kotlin help and support to enhance your development experience, ensuring you effectively utilize Kotlin’s features for your projects and applications.</h3>
-    <p class="paras">$ 200</p>
-    <button class="btnow"><a href="#odernum">Order now  </a> </button>
-</div>
-</div>
-
- 
- 
-    </div>
-  
-  
-    <div class="cherry leta1" id="analysis">
-      <h3>DATA ANALYSIS</h3><br><br>
-      <p class="analy">At our company, we specialize in providing comprehensive data analysis services to help businesses make informed decisions. Our team of experienced analysts uses advanced statistical techniques and cutting-edge tools to transform raw data into actionable insights. Whether you're looking to identify trends, optimize processes, or enhance customer experiences, we tailor our approach to meet your unique needs.</p>
-       
-      <p class="analy">Our data analysis services encompass everything from data collection and cleaning to in-depth reporting and visualization. We understand that every business has its challenges, and our goal is to empower you with the knowledge necessary to drive growth and efficiency.</p>
-      <p class="analy">With a focus on delivering clear and understandable results, we make complex data accessible to all stakeholders. Partner with us to unlock the full potential of your data and gain a competitive edge in your industry. Let us help you turn data into your most valuable asset and pave the way for informed strategic decisions.</p>
-      
-      
-    </div>
-    
-
-  
-
-  
-<div class="formbody" id="signup">
-  <div class="sigupcontainer">
-    <form class="signup-form">
-        <h2>Sign Up</h2>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
-        </div>
-        <div class="form-group">
-        <label for="phonenumber">phone number</label>
-        <input type="text" id="name" placeholder="Enter your phone number" required>
-    </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter your password" required>
-        </div>
-        <div class="form-group">
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" placeholder="Confirm your password" required>
-        </div>
-        <button class="sigupbutton" type="submit">Sign Up</button>
-    </form>
-</div>
-</div>
-
-
-
-  
-     
+    <h3>+254711797558</h3>
+<div class="logger">
    
-  
-
-  
-
-
-
-    
-<div class="cherry leta2" id="webdevelopment">
-  <h3>WEB AND APP DEVELOPMENT </h3><br><br>
-  <p class="analy">
-    At our Company , we specialize in delivering top-notch data-driven web and app development services tailored to meet your unique business needs. Our expert team harnesses the power of advanced technologies to create scalable and efficient solutions that enhance user experience and drive engagement. Whether you’re looking for a dynamic website, a robust mobile application, or custom software solutions, we ensure seamless integration of data management systems to optimize performance and security.</p>
-   
- 
-  <p class="analy">We pride ourselves on our collaborative approach, working closely with clients to understand their objectives and deliver solutions that align with their vision. Our commitment to quality, timely delivery, and customer satisfaction sets us apart in the competitive landscape. With our innovative strategies, we empower businesses to leverage data effectively, unlocking new opportunities for growth and success. Let us help you transform your ideas into reality, ensuring your digital presence stands out in today’s fast-paced market.</p>
-  
-  
-</div>
-
-<div class="cherry leta3" id="aboutus">
-  <h3>ABOUT US</h3><br><br>
-  <p class="analy">
-    At OUR COMPANY , we are dedicated to providing comprehensive solutions to meet your academic and technological needs. Our team specializes in assignment help, guiding students through complex topics with expert insights and personalized support to ensure academic success. In the realm of technology, we offer app development and web development services, crafting innovative and user-friendly applications and websites tailored to your specific requirements. Our skilled developers utilize the latest technologies to deliver robust, high-quality solutions that enhance your digital presence. Additionally, our data analysis services empower organizations to make informed decisions based on data-driven insights. We transform raw data into actionable strategies, helping businesses optimize performance and drive growth. At S HELP, our commitment to excellence and customer satisfaction sets us apart, making us your go-to partner for all your assignment and development needs. Let us help you achieve your goals today!</p>
-  
-  
-</div>
-
-
-<div class="slidy">
-  <div class="slider-container">
-      <div class="slider" id="slider">
-          <!-- 100 slides for success stories -->
-          <!-- Example of one slide, replicate this 100 times with different content -->
-          <div class="slide">
-              <h3>Mary Success Story</h3>
-              <p>Our app development services helped Client 1 increase user engagement by 50% through innovative UX design and robust backend integration.</p>
-          </div>
-
-          <!-- More slides (Add similar slides for 100 stories) -->
-          <div class="slide">
-              <h3>Clifford Success Story</h3>
-              <p>With our mobile app solution, Client 2 was able to streamline operations, cutting costs by 40% while improving user satisfaction.</p>
-          </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: Acme Corp</h3>
-                      <p>We helped Acme Corp launch a scalable e-commerce platform that increased sales by 45% within 6 months of launch.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: Tech Innovations</h3>
-                      <p>Our app development services empowered Tech Innovations to streamline their customer support system, improving response times by 35%.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: FitLife</h3>
-                      <p>FitLife partnered with us to build a mobile fitness app, resulting in a 60% growth in user engagement within 3 months.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: Global Finance Solutions</h3>
-                      <p>We developed a custom fintech app for Global Finance Solutions that improved transaction processing speed by 50%.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: TravelMate</h3>
-                      <p>Our team helped TravelMate create a travel booking app that reduced customer drop-offs by 30% and boosted revenue by 40%.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: Medico Health</h3>
-                      <p>Medico Health benefited from our custom healthcare app solution, increasing patient satisfaction rates by 25% through enhanced telemedicine features.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: GreenEnergy Solutions</h3>
-                      <p>We developed a user-friendly app for GreenEnergy Solutions, leading to a 50% increase in customer retention.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: SmartHome Inc.</h3>
-                      <p>SmartHome Inc. saw a 40% growth in smart home device sales after we launched their smart device control mobile application.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: EduLearn</h3>
-                      <p>Our e-learning platform for EduLearn enabled them to expand globally, increasing their student base by 200% in just 12 months.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: ShopEasy</h3>
-                      <p>ShopEasy's custom shopping app, developed by our team, reduced cart abandonment rates by 35% and increased overall sales.</p>
-                  </div>
-          
-                  <!-- More Success Stories... -->
-                  <!-- Replicate the structure for the remaining 90 slides with respective client names and success stories -->
-                  <div class="slide">
-                      <h3>Success Story: Foodie Delight</h3>
-                      <p>Our food delivery app for Foodie Delight allowed the company to reach 100,000 downloads within the first 6 months of launch.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: MindSync</h3>
-                      <p>MindSync's mental health app, developed by our team, enabled them to expand their user base by 300% within a year.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: AutoDrive</h3>
-                      <p>Our custom car dealership app for AutoDrive resulted in a 50% boost in lead generation and online sales within 4 months.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: StyleFinder</h3>
-                      <p>We developed a fashion discovery app for StyleFinder that increased user engagement by 70%, leading to higher customer retention rates.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: HomeSecure</h3>
-                      <p>Our custom home security app for HomeSecure boosted the company’s monthly subscription rate by 40% in 3 months.</p>
-                  </div>
-          
-                  <div class="slide">
-                      <h3>Success Story: HealthHub</h3>
-                      <p>We developed an integrated healthcare solution for HealthHub, reducing administrative overhead and improving patient outcomes by 30%.</p>
-                  </div>
-          
-                  <!-- Continue with similar slide structures up to 100 success stories -->
-           
-          
-
-          <!-- Add up to 100 similar slides with different content -->
-      </div>
-      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-      <button class="next" onclick="moveSlide(1)">&#10095;</button>
-  </div>
-</div>
-</div>
-
-
-
-    <div class="cherry leta4 " id="academictools">
-      <h3>ACADEMIC TOOLS</h3><br><br>
-      <p class="analy">
-        At our Company, we are dedicated to providing high-quality assignment help tailored to your academic needs. Our mission is to ensure that every assignment you receive is original and free from plagiarism. To maintain our commitment to academic integrity, each completed assignment is thoroughly checked through Turnitin, a leading plagiarism detection tool. This guarantees that your work meets the highest standards of originality and authenticity.
-      </p>
-      <p class="analy">
-        Our team of experienced writers and educators is equipped with the knowledge and skills to tackle a wide range of subjects and topics. We understand the importance of deadlines and are committed to delivering your assignments on time, allowing you to focus on your studies. With us, you can trust that your assignments are crafted with care, ensuring not only compliance with academic standards but also your satisfaction. Let us support you in achieving your academic goals with confidence!
-
-      </p>
-      
-      
+<div class="setupform">
+    <h2>Signup / Login</h2>
+    <div>
+        <input class="userinput" type="text" id="clientusername" placeholder="clientusername" required>
+        <input    class="userinput"  type="password" id="clientpassword" placeholder="clientpassword" required>
+        <button  class="butsetter" id="signupbutton">Signup</button>
+        <button class="butsetter" id="logginbtn">Login</button>
+        <div class="disaplayingcontent" id="disaplayingcontent"></div>
     </div>
-
-
-    <div class="cherry leta5 " id="matlab">
-      <h3>MATLAB</h3><br><br>
-      <p class="analy">
-        
-Our company specializes in providing comprehensive MATLAB services tailored to meet the diverse needs of our clients. With a strong focus on simulation, we harness the power of MATLAB to develop sophisticated models and algorithms that drive innovation across various industries. Our expert team is proficient in using MATLAB for a wide range of applications, including mathematical modeling, data analysis, and algorithm development.
-      </p>
-      <p class="analy">
-        We understand that simulation plays a crucial role in testing and validating concepts before implementation. Our MATLAB simulation services allow clients to visualize complex systems and assess their performance under different scenarios. By creating realistic simulations, we help businesses make informed decisions, optimize processes, and reduce risks associated with new projects.
-
-      </p>
-      <p class="analy">
-        In addition to simulation, we offer extensive support in code development, debugging, and optimization, ensuring that our clients receive high-quality, efficient solutions. Whether you are in engineering, finance, or research, our MATLAB services are designed to enhance your capabilities and drive your projects forward. Partner with us to leverage our expertise and take your simulations to the next level, achieving results that empower your organization to thrive in a competitive landscape.
-      </p>
-      
-      
-    </div><br><br>
-
-
-    
-    <div class="ordercontainer" id="odernum">
-      <h1 class="assignhead">Fill in the form to share  your project instructions</h1>
-      <form id="pricingForm">
-          <!-- Email Input -->
-          <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-          </div>
-          <!-- Phone Number Input -->
-          <div class="form-group">
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" required>
-          </div>
-          <div class="form-group instruction">
-              <label for="message">Project Instructions:</label>
-          <textarea id="message" name="message" placeholder="Enter your message..." required></textarea>
-
-          </div>
-          <label for="deadline">Select Deadline:</label>
-          <input type="date" id="deadline" name="deadline" required>
-          
-          <!-- Service Selection -->
-          <div class="form-group">
-              <label for="service">Select Service:</label>
-              <select id="service" name="service" required>
-                  <option value="">-- Select Service --</option>
-                  <option value="matlab">MATLAB</option>
-                  <option value="programming">Programming</option>
-                  <option value="app_development">App Development</option>
-                  <option value="web_development">Web Development</option>
-                  <option value="assignment_help">Assignment Help</option>
-              </select>
-          </div>
-          <!-- Assignment Help Pages Input -->
-          <div class="form-group" id="pagesContainer" style="display: none;">
-              <label for="pages">Number of Assignment Pages:</label>
-              <input type="number" id="pages" name="pages" min="1">
-          </div>
-          <!-- Attachments -->
-          <div class="form-group" id="attachmentsContainer" style="display: none;">
-              <label for="attachments">Attachments (Minimum 1 File):</label>
-              <input type="file" id="attachments" name="attachments" multiple required>
-          </div>
-          <!-- Display Total Cost -->
-          <div class="form-group">
-              <p id="totalCost">Payment Cost: $0</p>
-          </div>
-          <!-- Submit Button -->
-          <button class="butonpayment" type="submit">Submit</button>
-      </form>
-  </div>
-
- 
-  <div class="reviewl" id="contactus">
-    <h3 class="wordsay">contact us</h3>
-    <p class="para"> phone number: +254714047751</p>
-    <p class="para"> email:tutorclasspremium120@gmail.com</p>
-
-   
 </div>
+</div>
+<script>
+// lets start by setting up a cookie function that will let us catch the user input details
+function setClientDataInBrouser(clientinputname, value, days) {
+    // lets declare a variable mysetdate that will enable in setting the expiry date
+    const mySetdate = new Date();
+   mySetdate.setTime(mySetdate.getTime() + (days * 24 * 60 * 60 * 1000));
+    const setExpires = "expires=" + mySetdate.toUTCString();
+    document.cookie = clientinputname + "=" + value + ";" + setExpires + ";path=/";
+}
 
-  
+// Function to get a cookie
+function getClientData(clientinputname) {
+    const dataArr = document.cookie.split(";");
+    for (let i = 0; i < dataArr.length; i++) {
+        let clientDataPair =dataArr[i].trim().split("=");
+        if (clientDataPair[0] === clientinputname) {
+            return clientDataPair[1];
+        }
+    }
+    return null;
+}
 
-  <script src="javascript.js"></script>
-  <script src="reviews.js"></script>
-  
+// Signup function
+const signupbuttonelement = document.getElementById("signupbutton");
+signupbuttonelement.addEventListener("click",signingClient)
+function signingClient() {
+    let clienusername = document.getElementById("clientusername").value;
+    const clienpassword = document.getElementById("clientpassword").value;
 
+    if (clienusername && clienpassword) {
+        if (!getClientData(clienusername)) { // Check if the user already exists
+            setClientDataInBrouser(clienusername, clienpassword, 10); // Storing the  clientusername as well as  password as a cookie
+            document.getElementById("disaplayingcontent").innerText = "you have Signup successful!  now log in.";
+        } else {
+            document.getElementById("disaplayingcontent").innerText = "the user  exists already. Please log in.";
+        }
+    } else {
+        document.getElementById("disaplayingcontent").innerText = "Please insert your name and secured  password.";
+    }
+}
 
+// Login function
+const logginbtnelement = document.getElementById("logginbtn");
+logginbtnelement.addEventListener("click",logginfunction)
+function logginfunction() {
+    const clientlogusername = document.getElementById("clientusername").value;
+    const clientlogpassword = document.getElementById("clientpassword").value;
+    const cookystoredPassword = getClientData(clientlogusername);
 
-  
+    if (cookystoredPassword) {
+        if (cookystoredPassword === clientlogpassword) {
+            document.getElementById("disaplayingcontent").innerText = "Login was successful!";
+        } else {
+            document.getElementById("disaplayingcontent").innerText = "Incorrect password. Try again.";
+        }
+    } else {
+        document.getElementById("disaplayingcontent").innerText = "User not found. Please sign up.";
+    }
+}
+</script>
+
 </body>
 </html>
